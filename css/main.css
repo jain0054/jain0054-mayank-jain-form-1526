@@ -1,0 +1,137 @@
+/* Body */
+body, a{
+    font-family: 'Helvetica', sans-serif;
+    font-size: 1rem;
+  }
+
+body{
+    width: 100%;
+    height: auto;
+    padding: 20%;
+    width: 50%;
+    margin: 10px;
+}
+
+  
+  body {
+    width: 100%;
+    height: auto;
+    padding: 2rem 0;
+  }
+  
+  #form-body {
+    position: relative;
+    padding: 2rem;
+    width: 50%;
+    margin: 1rem auto;
+  }
+  
+  
+  #form-body form {
+    background: #f5f5f5;
+    border: solid #ddd 0.1rem;
+    border-radius: 0.2rem;
+    margin: 3rem auto;
+    padding: 2rem;
+  }
+  
+  
+  #form-body form label, input[type=text], textarea {
+    width: 100%;
+    margin: 0.5rem auto;
+    padding: 0.5rem 0;
+    color: black;
+  }
+  
+  #form-body form input[type=text], textarea {
+    border: solid #ddd 0.1rem;
+    border-radius: 0.2rem;
+  }
+  
+  #form-body form input[type=submit] {
+    min-width: 100%;
+    margin-top: 1rem;
+    padding: 0.5rem 0;
+    background-color: #6495ED;
+    color: white;
+    border: none;
+    border-radius: 0.2rem;
+    width: 100%;
+  }
+  
+  h1 {
+    font-family: 'Helvetica';
+    position: absolute;
+    font-size: 2rem;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border: solid #ddd 0.1rem;
+    border-radius: 0.2rem;
+    top: 4%;
+    left: 15%;
+    padding: 1rem;
+  }
+
+  
+  
+ @media only screen and (max-width: 35rem) {
+        body {
+          line-height: 1.5rem;
+        }
+      
+        form {
+          padding-top: 4rem;
+        }
+        h1 {
+            font-size: 1.5rem;
+    
+      } 
+    }
+      
+ @media only screen and (min-width: 35rem) and (max-width: 60rem) {
+        .form {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 20px;
+        }
+        .message {
+            grid-column: span 2;
+        }
+    
+        h1 {
+            font-size: 1.5rem;
+    
+      } 
+      
+        #submit {
+            grid-column: 1;
+            background-color: #6495ED;
+            padding: 10px;
+        }
+        form {
+            padding: 6rem;
+          }    
+      
+        }
+    
+@media only screen and (min-width: 60rem) {
+          .form {
+              display: grid;
+              grid-template-columns: 1fr 1fr;
+              grid-gap: 20px;
+          }
+          .message {
+              grid-column: span 2;
+          }
+        
+          #submit {
+              grid-column: 1;
+              background-color: #6495ED;
+              padding: 10px;
+          }
+          form {
+              padding: 6rem;
+            }    
+          
+      }
