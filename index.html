@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- stylesheets -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+	
+	<script type="text/javascript" src="js/index.js"></script>
+
+    <title>Form Validation</title>
+</head>
+<body>
+    <main id="form-body">
+        <h1>Form Validation</h1>
+        <form action="" method="POST" class="form" onsubmit="return validateForm()">
+            <div class="fname">
+                <label for="fname">Full Name</label>
+                <input type="text" id="fname" name="fname">
+            </div>  
+            <div class="email">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email">
+            </div>
+            <div class="message">
+                <label for="message">Message</label>
+                <textarea id="message" name="message"></textarea>
+            </div>
+            <div>
+                <input type="submit" id="submit" name="submit" value="submit">
+            </div>
+        </form>
+    </main>
+    
+</body>
+</html>
